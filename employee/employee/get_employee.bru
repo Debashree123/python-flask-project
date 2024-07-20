@@ -1,0 +1,23 @@
+meta {
+  name: get_employee
+  type: http
+  seq: 2
+}
+
+post {
+  url: http://127.0.0.1:5000/employees
+  body: json
+  auth: none
+}
+
+body:json {
+  
+  {
+    "id": 1,
+    "name":"deba",
+    "age":18,
+    "dept":"cse"
+  }
+  
+  
+}

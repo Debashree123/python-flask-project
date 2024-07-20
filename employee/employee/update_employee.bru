@@ -1,0 +1,20 @@
+meta {
+  name: update_employee
+  type: http
+  seq: 6
+}
+
+put {
+  url: http://127.0.0.1:5000/employees/89
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "id": 43,
+    "name":"debashree",
+    "age":18,
+    "dept":"cse"
+  }
+}
